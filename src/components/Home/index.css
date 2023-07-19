@@ -1,0 +1,97 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.my-tasks-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  height: 100vh;
+  width: 40%;
+  background-color: #131213;
+}
+
+.input {
+  width: 80%;
+  height: 32px;
+  border-radius: 4px;
+}
+
+label {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  align-self: flex-start;
+  margin-left: 53px;
+  margin-top: 30px;
+}
+
+.button {
+  width: 90px;
+  height: 32px;
+  background-color: #f3aa4e;
+  color: white;
+  border-radius: 4px;
+  margin-top: 35px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tags-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  height: 100vh;
+  width: 40%;
+  background-color: black;
+  overflow-y: auto;
+}
+
+.tags-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+
+.tag-btn {
+  height: 27px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-top: 35px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.tags-list-container {
+  list-style-type: none;
+  width: 90%;
+  padding-left: 0px;
+}
+
+.no-tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
